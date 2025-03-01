@@ -17,6 +17,14 @@
         </form>
 
         <a href="{{ route('register') }}">Register</a>
+        
+        <a href="{{ route('google.login') }}">
+        <button style="background-color: #db4437; color: white;">Login with Google</button>
+        </a>
+        <a href="{{ route('facebook.login') }}">
+            <button style="background-color: #4267B2; color: white;">Login with Facebook</button>
+        </a>
+
     </div>
 </body>
 </html>
